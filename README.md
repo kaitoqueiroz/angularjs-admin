@@ -3,7 +3,7 @@ AngularJs code example built in AngularJs, Sass, bootstrap and Gulp
 
 [Live Version](https://kaitoqueiroz.github.io/angularjs-admin/)
 
-## Installation
+## Install & run in development
 
 `npm install`
 
@@ -13,4 +13,4 @@ AngularJs code example built in AngularJs, Sass, bootstrap and Gulp
 
 `npm run build`
 
-`/dist` folder is ready to publish
+then `/dist` folder is ready to be published
