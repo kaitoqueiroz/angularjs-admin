@@ -1,6 +1,8 @@
 # angularjs-admin
 AngularJs code example built in AngularJs, Sass, bootstrap and Gulp
 
+[Live Version](https://kaitoqueiroz.github.io/angularjs-admin/)
+
 ## Installation
 
 `npm install`
