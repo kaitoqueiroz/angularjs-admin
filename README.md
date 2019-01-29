@@ -6,3 +6,9 @@ AngularJs code example built in AngularJs, Sass, bootstrap and Gulp
 `npm install`
 
 `gulp serve`
+
+## Extract for production
+
+`npm run build`
+
+`/dist` folder is ready to publish
