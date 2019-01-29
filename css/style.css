@@ -12750,22 +12750,22 @@ hr.transparent {
     height: 100%; }
 
 .custom-slider.rzslider {
-  margin: 17px 0 15px 0; }
+  margin: 40px 0 15px 0; }
+  .custom-slider.rzslider .rz-bar {
+    background: #999;
+    height: 2px; }
+  .custom-slider.rzslider .rz-selection {
+    background: #333; }
+  .custom-slider.rzslider .rz-pointer {
+    width: 15px;
+    height: 15px;
+    top: auto;
+    bottom: -4px;
+    border-radius: 50%;
+    background-color: #333; }
+  .custom-slider.rzslider .rz-pointer:after {
+    display: none; }
 
-.custom-slider.rzslider .rz-bar {
-  background: #999;
-  height: 2px; }
-
-.custom-slider.rzslider .rz-selection {
-  background: #333; }
-
-.custom-slider.rzslider .rz-pointer {
-  width: 15px;
-  height: 15px;
-  top: auto;
-  bottom: -4px;
-  border-radius: 50%;
-  background-color: #333; }
-
-.rzslider .rz-pointer:after {
-  display: none; }
+@media (min-width: 768px) {
+  .custom-slider.rzslider {
+    margin: 17px 0 15px 0; } }
