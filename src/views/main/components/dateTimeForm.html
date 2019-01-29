@@ -1,0 +1,47 @@
+<div class="card">
+  <div class="card-header">
+    <strong>Date &amp; Time</strong>
+  </div>
+  <div class="card-body">
+    <form action="" method="post" class="form-horizontal ng-pristine ng-valid">
+      <div class="form-group row">
+        <label class="col-md-3 col-form-label pr-0" for="hf-email">Pickup Date</label>
+        <div class="col-md-4">
+          <a id="dropdown" role="button" data-toggle="dropdown" data-target="#" href="#">
+            <div class="input-group">
+              <input type="text" class="form-control" data-ng-model="pickupDate">
+              <div class="input-group-append">
+                <label for="deliveryDate" class="input-group-text"><i class="fa fa-calendar"></i></label>
+              </div>
+            </div>
+          </a>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            <datetimepicker data-ng-model="pickupDate" data-datetimepicker-config="{ dropdownSelector: '#dropdown', minView: 'day', modelType: 'DD/MM/YYYY' }" />
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <rzslider class="custom-slider" rz-slider-model="pickupHour.minValue" rz-slider-high="pickupHour.maxValue" rz-slider-options="pickupHour.options"></rzslider>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-md-3 col-form-label" for="hf-password">Delivery Date</label>
+        <div class="col-md-4">
+          <a id="dropdown2" role="button" data-toggle="dropdown" data-target="#" href="#">
+            <div class="input-group">
+              <input type="text" class="form-control" data-ng-model="deliveryDate">
+              <div class="input-group-append">
+                <label for="deliveryDate" class="input-group-text"><i class="fa fa-calendar"></i></label>
+              </div>
+            </div>
+          </a>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            <datetimepicker data-ng-model="deliveryDate" data-datetimepicker-config="{ dropdownSelector: '#dropdown2', minView: 'day', modelType: 'DD/MM/YYYY' }" />
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <rzslider class="custom-slider" rz-slider-model="deliveryHour.minValue" rz-slider-high="deliveryHour.maxValue" rz-slider-options="deliveryHour.options"></rzslider>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

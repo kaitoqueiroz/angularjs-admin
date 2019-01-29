@@ -1,0 +1,13 @@
+.main{
+    margin-bottom: 150px
+}
+.main .container-fluid{
+    padding: 15px;
+}
+.map-container{
+    min-height: 300px;
+    height: 95%;
+    .map{
+        height: 100%;
+    }
+}
